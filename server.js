@@ -24,7 +24,7 @@ var con = mysql.createConnection({
 	host     : 'mysql.czcbg28ubfu7.us-east-1.rds.amazonaws.com',
 	user     : 'admin',
 	password : 'PU82dARWlZrJ8Oqp',
-	database : 'nodelogin'
+	database : 'myform'
 });
 
 app.get('/', (req, res) => {
